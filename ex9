@@ -1,0 +1,20 @@
+Ruby ser dinâmicamente tipado implica que o tipo das variáveis não é declarado no código.
+isso acarreta algumas vantagens e desvantagens.
+
+vantagens:
+
+- O código fica mais enxuto
+- Se torna mais fácil de generalizar as funções e permitir que elas sejam
+  utilizadas para diferentes contextos. Como no exemplo fornecido no exercício 7
+- Proporciona mais agilidade no desenvolvimento, uma vez que a decisão sobre O
+  tipo da variável pode ser evitado.
+- É possível atribuir outro tipo à variavel em tempo de execução, proporcionando
+muita flexibilidade no desenvolvimento.
+
+desvantagens:
+
+- É mais difícil de identificar erros, uma vez que a variável pode
+  estar recebendo um tipo difente do esperado pelo programador.
+
+- O código se torna menos legível, já que o programador tem que deduzir
+  o tipo do valor que a variável vai receber.

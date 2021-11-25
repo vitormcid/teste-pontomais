@@ -1,0 +1,6 @@
+No método escrito em java, o parâmetro recebido deve ser do tipo string,
+onde seu objetivo é indicar se a string possui ou não 0 caracteres;
+
+O método escrito em ruby, também pode ser usado para verificar se uma
+string tem 0 caracteres, porém seu parâmetro não é tipado, ou seja
+a função também pode ser utilizada com um array ou até mesmo um hash.

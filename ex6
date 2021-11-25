@@ -1,0 +1,14 @@
+a ||= b é uma abreviação para  a = a || b. Na prática, na maioria das vezes
+utiliza-se essa sintaxe quando se quer atribuir um valor para "a" apenas se essa
+variavel ainda não tiver sido instânciada. 
+
+por exemplo:
+    se a = nil, a ||= 1 resulta em 1
+    se a = 2,   a ||= 1 resulta em 2
+
+A utilização desse comando é interessante em 2 cenários:
+- Quando se deseja que a variavel seja instânciada apenas 1 vez e não possa
+  ser modificada posteriormente
+
+- Quando se quer evitar instânciações desnecessárias, uma vez que o valor obtido
+  será sempre o mesmo, e a operação pode consumir recurso desnecessário no servidor.

@@ -1,0 +1,25 @@
+self é uma variável especial que aponta para o objeto que está em execução no momento.
+
+por exemplo:
+
+class Employee
+  def reflect
+    self
+  end
+end
+
+e = Employee.new
+e.reflect == e # -> true
+
+
+Essa variavel é utilizada com frequência para definir métodos de classe
+dentro dos modelos. Exemplo:
+
+class Employee
+  def self.some_method
+    puts "eu sou um método de classe"
+  end
+end
+
+Employee.some_method # -> eu sou um método de classe
+

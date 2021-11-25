@@ -1,0 +1,5 @@
+SELECT e.first_name, e.last_name, e.cpf, t.name AS title_name, jt.name AS job_title_name
+FROM employees AS e
+INNER JOIN job_titles AS jt ON e.job_title_id = jt.id
+INNER JOIN teams AS t ON e.team_id = t.id
+ORDER BY e.cpf
