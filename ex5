@@ -4,9 +4,11 @@ class Employee < ApplicationRecord
 end
 
 class JobTitle < ApplicationRecord
+    has_many :employes
 end
 
 class Team < ApplicationRecord
+    has_many :employes
 end
 
 Employee.joins(:team,:job_title).
